@@ -98,6 +98,19 @@ cd ddddocr
 python setup.py
 ```
 
+
+**iii. 从源码安装 Python 3.13**
+```sh
+pip install setuptools==79.0.1 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+git clone https://github.com/winezer0/ddddocr/ --depth 1
+cd ddddocr
+python setup.py
+```
+
+提示1: setuptools 80.0及以上已经弃用 setup.py 安裝.
+
+提示2：Python3.13 安装 主要是需要限定 pip install onnxruntime==1.20.0 高版本会提示动态链接库错误.
+
 **请勿直接在ddddocr项目的根目录内直接import ddddocr**，请确保你的开发项目目录名称不为ddddocr，此为基础常识。
 
 ### 文件目录说明
