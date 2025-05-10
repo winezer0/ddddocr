@@ -58,7 +58,11 @@ DdddOcr、最简依赖的理念，尽量减少用户的配置和使用成本，�
 - [捐赠](#捐赠)
 - [Star历史](#Star历史)
 
+### TODO
 
+```
+合并 https://github.com/sml2h3/ddddocr/pull/259  支持旋转验证码
+```
 
 ### 赞助合作商
 
